@@ -76,6 +76,7 @@ ffmpeg.setFfmpegPath(ffmpegStatic as string);
         const frameRatePerSec = 60;
         const durationSec = Math.ceil(frameCounter/frameRatePerSec);
 
+        console.log('Stitching frames to video...')
         await stitchFramesToVideo(
             'tmp/output/frame-%04d.png',
             // 'assets/catch-up-loop-119712.mp3',
@@ -83,7 +84,7 @@ ffmpeg.setFfmpegPath(ffmpegStatic as string);
             durationSec,
             frameRatePerSec,
         );
-
+        console.log('FFmpeg done, see ./out/video.mp4')
         // Clean up temporary files
         for (const path of ['tmp/output']) {
             if (fs.existsSync(path)) {
@@ -91,12 +92,14 @@ ffmpeg.setFfmpegPath(ffmpegStatic as string);
             }
             await fs.promises.mkdir(path, { recursive: true });
         }
+        console.log('tmp/output cleaned')
     })
 
     // Read data from text
     const inputPath = '../data/testinput';
     const fileName = path.join(__dirname, inputPath);
-
+    console.log(`Running solver/visualizer on ${fileName}` )
     const data = await asyncReadFiles(fileName);
-    console.log(minPathfinder(data, dijkstraEmitter));
+    const minPathLength = minPathfinder(data, dijkstraEmitter);
+    console.log(`Min path length: ${minPathLength}`)
 })()
