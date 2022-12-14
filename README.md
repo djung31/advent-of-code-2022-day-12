@@ -11,7 +11,7 @@ As another exercise, I wanted to created my own visualizer to see how the algori
 This was implemented as a script which runs the algorithm on the input data, generating screenshots which are then stitched together with ffmpeg.
 
 ## Instructions
----------------
+
 ### Installation
 - Install: `$ npm install` 
 - Prerequisite: `ffmpeg` ver >0.9 installed.
@@ -29,7 +29,7 @@ This was implemented as a script which runs the algorithm on the input data, gen
 - Run unit test: `$ npm run test`
 
 ## Example
-----------------
+
 ### Screenshots
 
 Note:
