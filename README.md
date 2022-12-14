@@ -18,7 +18,7 @@ The visualizer takes 2D data from the solver and creates PNGs which are temporar
 
 
 ## Video
-![Animated visualization of node traversal and pathfinding](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/video.mp4?raw=true)
+![Animated visualization of node traversal and pathfinding](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize.mp4?raw=true)
 ## License
 
 ISC
