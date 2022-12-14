@@ -13,12 +13,12 @@ The visualizer takes 2D data from the solver and creates PNGs which are temporar
 ## Example
 
 ## Screenshots
-![Visualizer showing height in grayscale](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize-01.png?raw=true)
-![Visualizer showing height as color and shortest path as a black line](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize-02.png?raw=true)
+![Visualizer showing height in grayscale](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize-01.png)
+![Visualizer showing height as color and shortest path as a black line](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize-02.png)
 
 
 ## Video
-![Animated visualization of node traversal and pathfinding](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize.mp4?raw=true)
+https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize.mp4
 ## License
 
 ISC
