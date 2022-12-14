@@ -116,6 +116,7 @@ export const minPathfinder = (input: string, dataEmitter?: EventEmitter): number
 
         // Returns the min distance if the end cell is reached
         if (currentNode.value === END_CHAR) {
+            dataEmitter?.emit('end');
             return currentNode.distance;
         }
     }

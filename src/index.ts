@@ -6,7 +6,7 @@ import ffmpeg from 'fluent-ffmpeg';
 import sharp from 'sharp';
 import type { SharpOptions } from 'sharp';
 
-import { asyncReadFiles } from '../util/readFile'
+import { asyncReadFiles } from './readFile'
 import { createUint8rgba, stitchFramesToVideo } from './utils';
 import { minPathfinder } from './pathfinding';
 import type { VisualizerData } from './pathfinding';
@@ -94,7 +94,7 @@ ffmpeg.setFfmpegPath(ffmpegStatic as string);
     })
 
     // Read data from text
-    const inputPath = './input';
+    const inputPath = '../data/testinput';
     const fileName = path.join(__dirname, inputPath);
 
     const data = await asyncReadFiles(fileName);
