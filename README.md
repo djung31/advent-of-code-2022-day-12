@@ -18,7 +18,9 @@ The visualizer takes 2D data from the solver and creates PNGs which are temporar
 
 
 ## Video
-https://github.com/djung31/advent-of-code-2022-day-12/blob/main/doc/visualize.mp4
+
+https://user-images.githubusercontent.com/29995136/207649207-47c758ff-9d7f-4cc0-afc5-97bb2d6f6739.mp4
+
 ## License
 
 ISC
