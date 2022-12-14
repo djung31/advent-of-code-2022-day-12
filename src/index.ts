@@ -96,7 +96,7 @@ ffmpeg.setFfmpegPath(ffmpegStatic as string);
     })
 
     // Read data from text
-    const inputPath = '../data/testinput';
+    const inputPath = '../data/input';
     const fileName = path.join(__dirname, inputPath);
     console.log(`Running solver/visualizer on ${fileName}` )
     const data = await asyncReadFiles(fileName);
