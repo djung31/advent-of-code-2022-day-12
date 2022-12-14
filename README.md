@@ -8,6 +8,10 @@ I coded the pathfinding algorithm to use Dijkstra's algorithm, although since th
 I wanted to created my own visualizer as a way to help me see what the algorithm is actually doing, since I had never actually implemented Dijkstra's algorithm before.
 The visualizer takes 2D data from the solver and creates PNGs which are temporarily saved to disk. Then, a NodeJS wrapper around ffmpeg combines the individual frames into a single video, which is also saved to disk.
 
+## Screenshots
+![Visualizer showing height in grayscale](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/visualize-01.png?raw=true)
+![Visualizer showing height as color and shortest path as a black line](https://github.com/djung31/advent-of-code-2022-day-12/blob/main/visualize-02.png?raw=true)
+
 ## License
 
 ISC
